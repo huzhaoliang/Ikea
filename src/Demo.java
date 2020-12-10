@@ -25,7 +25,7 @@ public class Demo {
             case "Windows 10":
                 chromeDriver=Paths.get(System.getProperty("user.dir"), "lib", "chromedriver.exe");
                 break;
-            case "":
+            case "Mac OS X":
                 chromeDriver=Paths.get(System.getProperty("user.dir"), "lib", "chromedriver");
                 break;
             default:
